@@ -1889,6 +1889,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
   background: rgba(34, 34, 34, 0.9);
   transition: all 0.5s;
+  height: 7%;
 }
 
 @media (max-width: 673px) {
@@ -2346,6 +2347,45 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (min-width: 801px) and (max-width: 991px){
+  .banner-content {
+    margin-top: 50px;
+  }
+
+  .banner-right{
+    width: 20rem;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px){
+  .banner-content {
+    margin-top: 50px;
+  }
+  .banner-right{
+    width: 30rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 531px){
+  .banner-right{
+    width: 30rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 531px) and (min-width: 430px){
+  .banner-content{
+    margin-top: 50px;
+  }
+  
+  .banner-right{
+    width: 30rem;
+    margin: auto;
+  }
+}
+
 .primary-btn {
   background: #fff;
   border: 1px solid transparent;
@@ -2629,10 +2669,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.single-course .details h4:hover {
-  color: #f53f51;
-}
-
 @media (max-width: 768px) {
   .call-to-action-area .download-button {
     -webkit-box-direction: normal !important;
@@ -2770,6 +2806,12 @@ h6 {
   }
 }
 
+@media (max-width: 800px) {
+  .footer-social {
+    justify-content: center;
+  }
+}
+
 .single-footer-widget input {
   border: none;
   width: 80% !important;
@@ -2869,6 +2911,7 @@ h6 {
 
 @media (max-width: 800px) {
   .social-widget {
+    margin: auto;
     margin-top: 30px;
   }
 }

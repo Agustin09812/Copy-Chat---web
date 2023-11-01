@@ -568,6 +568,8 @@ td, th {
 
 .text-white {
   color: #fff;
+  font-size: 25px;
+  line-height: 1em;
 }
 
 .text-black {
@@ -591,6 +593,10 @@ td, th {
 
 .text-center {
   text-align: center;
+}
+
+.title p{
+  font-size: 18px;
 }
 
 .text-left {
@@ -2169,7 +2175,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 1em 0;
 }
 
 .section-title {
@@ -2191,16 +2197,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.p1-gradient-bg, .primary-btn, .banner-area, .single-price:hover .price-bottom, .call-to-action-area, .single-footer-widget .click-btn, .generic-banner {
+.p1-gradient-bg, .primary-btn, .banner-area, .single-price:hover .call-to-action-area, .single-footer-widget .click-btn, .generic-banner {
   background-image: -moz-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
   background-image: -webkit-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
   background-image: -ms-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
 }
 
 .p1-gradient-color, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
-  background: -webkit-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
-  background: -ms-linear-gradient(90deg, #20e5f1 0%, #202045 100%);
+  background: -moz-linear-gradient(90deg, #20e5f1 0%, #20e5f1 100%);
+  background: -webkit-linear-gradient(90deg, #20e5f1 0%, #20e5f1 100%);
+  background: -ms-linear-gradient(90deg, #20e5f1 0%, #20e5f1 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2420,6 +2427,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 40px 60px 0px;
 }
 
+.info-area p{
+  font-size: 18px;
+}
+
 @media (max-width: 575.98px) {
   .info-area .info-content {
     margin-top: 30px;
@@ -2589,15 +2600,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-price p {
   padding: 30px 0px;
+  font-size: 18px;
 }
 
 .single-price:hover {
   cursor: pointer;
+  border-color: #20e5f1;
 }
 
-.single-price:hover .price-bottom h1 {
+/* .single-price:hover .price-bottom h1 {
   color: #fff;
-}
+} */
 
 .single-price:hover .primary-btn {
   background-color: #20e5f1;
@@ -2643,7 +2656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-course .sale-btn {
-  background-color: #202045;
+  background-color: #096b1e;
   color: #fff;
   width: 140px;
   text-align: center;
@@ -2659,6 +2672,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-course .details {
   padding: 5px 30px 30px 30px;
+}
+
+.single-course .details p{
+  font-size: 18px;
 }
 
 .single-course .details h4 {
@@ -2769,7 +2786,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  padding-top: 100px;
+  padding-top: 1em;
   background-color: #222222;
 }
 
@@ -2802,7 +2819,7 @@ h6 {
 
 @media (max-width: 991.98px) {
   .footer-social {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -2917,7 +2934,9 @@ h6 {
 }
 
 .footer-text {
+  text-align: center;
   padding-top: 20px;
+  font-size: 18px;
 }
 
 .footer-text a, .footer-text i {
@@ -2991,4 +3010,8 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.single-footer-widget {
+  text-align: center;
 }
